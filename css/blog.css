@@ -1,0 +1,35 @@
+/* Reset default style */
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    background-color: #FA9448;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 1vw;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    margin-left: 1vw;
+    cursor: pointer;
+}
+.card{
+    width: 30%;
+    margin:2vw 2vw;
+    border-radius: 20px;
+    padding: 2vw;
+    background-color: white;
+}
+.card p{
+    margin-bottom:1vw;
+}
+.message{
+    display: none;
+
+}
