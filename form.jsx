@@ -70,7 +70,7 @@ $(document).ready(function () {
         }
         else {
             console.log("not vaild email ")
-            return 0;
+            return 1;
         }
     }
     //function check if password valid
