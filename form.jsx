@@ -1,7 +1,7 @@
 $(document).ready(function () {
     if(localStorage.getItem("usersData")===null)
     {
-        localStorage.setItem("usersData", JSON.stringfy([email:'menna@gmail.com',password:"#1651995"]));
+        localStorage.setItem("usersData", '[]');
     }
     putSavedPassword();
     //listener on submit button
@@ -82,7 +82,7 @@ $(document).ready(function () {
         }
         else {
             console.log("not vaild password ")
-            return 0;
+            return 1;
         }
     }
     //function save data 
