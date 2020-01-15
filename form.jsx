@@ -1,7 +1,7 @@
 $(document).ready(function () {
     if(localStorage.getItem("usersData")===null)
     {
-        localStorage.setItem("usersData", "[]");
+        localStorage.setItem("usersData", JSON.stringfy([email:'menna@gmail.com',password:"#1651995"]));
     }
     putSavedPassword();
     //listener on submit button
